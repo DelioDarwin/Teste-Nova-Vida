@@ -37,7 +37,17 @@
 </style>
 
 
-<h2>Alunos do professor: <b style="color: blue">@nomeProfessor</b> </h2>
+@if (@nomeProfessor != "")
+{
+    <h2>Alunos do professor: <b style="color: blue">@nomeProfessor</b> </h2>
+}
+@if (ViewData["Message"] != null)
+{
+    if (@ViewData["Message"].ToString().Split("#")[3] != "")
+    {
+        <h2>Alunos do professor: <b style="color: blue">@ViewData["Message"].ToString().Split("#")[3]</b> </h2>
+    }
+}
 <hr />
 <br />
 
@@ -45,36 +55,59 @@
 {
     <input type="hidden" name="id" value="@Context.Request.RouteValues["id"]" />
     <input type="hidden" name="nome" value="@Context.Request.Query["nome"]" />
-    <input class="form-control form-control-sm" type="file" name="postedFile" />
+    <input class="form-control form-control" type="file" name="postedFile" style="width: unset; display: block;" />
 
-    <input type="submit" value="Importar TXT/CSV" class="btn btn-primary mt-2" />
+    <input type="submit" id="btnImportar" value="Importar TXT/CSV" class="btn btn-primary" style="margin-top: 10px; display: none" />
 }
-@if (Model.Count() > 0)
+
+@if (ViewData["Message"] != null)
 {
-    <hr />
-    <table cellpadding="0" cellspacing="0">
-        <tr>
-            <th>Nome do aluno</th>
-            <th>Valor da mensalidade</th>
-            <th>Data de vencimento</th>
-        </tr>
-        @foreach (Aluno aluno in Model)
-        {
-            <tr>
-                <td>@aluno.NomeAluno</td>
-                <td>@aluno.ValorMensalidade</td>
-                <td>@aluno.DataVencimento</td>
-
-            </tr>
-        }
-    </table>
+    <div class="alert alert-danger alert-with-icon" role="alert" style="margin-top: 30px">
+        <div class="alert-icon-box" style="display: inline-block; float: left; width: 40px; position: relative; top: 10px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock alert-icon">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+        </div>
+        <b>Mensagem:</b> @ViewData["Message"].ToString().Split("#")[0] <b>@ViewData["Message"].ToString().Split("#")[1] </b>
+        <br />
+        <b>Status Code:</b> @ViewData["Message"].ToString().Split("#")[2]
+    </div>
 }
-
-
-<br />
 
 <hr />
 <div class="d-inline-block">
-   <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("ListarAlunosProfessor", "Professors",  new { id = @Context.Request.RouteValues["id"], nome = nomeProfessor })'">Voltar</button>
+    @if (@nomeProfessor != "")
+    {
+        <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("ListarAlunosProfessor", "Professors",  new { id = @Context.Request.RouteValues["id"], nome = nomeProfessor })'">Voltar</button>
+
+    }
+    @if (ViewData["Message"] != null)
+    {
+        if (@ViewData["Message"].ToString().Split("#")[3] != "")
+        {
+            <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("ListarAlunosProfessor", "Professors",  new { id = @Context.Request.RouteValues["id"], nome = @ViewData["Message"].ToString().Split("#")[3] })'">Voltar</button>
+        }
+    }
 </div>
 
+<script src="~/js/jquery.js"></script>
+<script type="text/javascript">
+
+
+    $(document).ready(function() {
+      $('input[type="file"]').change(function() {
+        // Get the DOM element from the jQuery object
+        const fileInput = $(this)[0];
+
+        // Check the length of the files property
+        if (fileInput.files.length > 0) {
+             $("#btnImportar").show();
+          // Perform actions when a file is selected
+        } else {
+             $("#btnImportar").hide();
+          // Perform actions when no file is selected
+        }
+      });
+    });
+</script>

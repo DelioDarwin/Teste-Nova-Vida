@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cAecloEP+huTbN7bqDH4Glef0LQQzqCn8+VU7unxsjc=",
+  "Hash": "YgDzyuvYpqIUkoZwty1Jo7Mo37kLiAVnE4Q5qb81L1g=",
   "Source": "TesteNovaVida",
   "BasePath": "_content/TesteNovaVida",
   "Mode": "Default",
@@ -1130,27 +1130,6 @@
       "OriginalItemSpec": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\3xdgd61b6v-7sjcucgwe4.gz",
-      "SourceId": "TesteNovaVida",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/TesteNovaVida",
-      "RelativePath": "Sample#[.{fingerprint=7sjcucgwe4}]?.csv.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.csv",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "wrinuss8wy",
-      "Integrity": "NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.csv"
-    },
-    {
       "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\417687o4w8-nvvlpmu67g.gz",
       "SourceId": "TesteNovaVida",
       "SourceType": "Discovered",
@@ -1611,27 +1590,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\delio\\.nuget\\packages\\bootstrap\\5.3.7\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map"
-    },
-    {
-      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\axtxsiehrp-7sjcucgwe4.gz",
-      "SourceId": "TesteNovaVida",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/TesteNovaVida",
-      "RelativePath": "Uploads/Sample#[.{fingerprint=7sjcucgwe4}]?.csv.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\Sample.csv",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "wrinuss8wy",
-      "Integrity": "NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\Sample.csv"
     },
     {
       "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\bgrtz8pmex-vn0zb8aorj.gz",
@@ -2537,27 +2495,6 @@
       "OriginalItemSpec": "C:\\Users\\delio\\.nuget\\packages\\bootstrap\\5.3.7\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\m51a0r54x5-7sjcucgwe4.gz",
-      "SourceId": "TesteNovaVida",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/TesteNovaVida",
-      "RelativePath": "Sample#[.{fingerprint=7sjcucgwe4}]?.txt.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.txt",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "wrinuss8wy",
-      "Integrity": "NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.txt"
-    },
-    {
       "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\ma4f4zswox-a6wz4zl1d0.gz",
       "SourceId": "TesteNovaVida",
       "SourceType": "Discovered",
@@ -2619,6 +2556,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\delio\\.nuget\\packages\\bootstrap\\5.3.7\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\nkae8z26fk-pssfe2zcq7.gz",
+      "SourceId": "TesteNovaVida",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TesteNovaVida",
+      "RelativePath": "Uploads/ArquivoTXT#[.{fingerprint=pssfe2zcq7}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoTXT.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7im8r9ynvu",
+      "Integrity": "78JY4cO14FAzE8YLdkx1LQnCOOaPN3TKFqVtNCcN6t0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoTXT.txt"
     },
     {
       "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\nsw0xirsr1-muycvpuwrr.gz",
@@ -3333,6 +3291,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TesteNovaVida.styles.css"
+    },
+    {
+      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\zd5fyesvrd-7sjcucgwe4.gz",
+      "SourceId": "TesteNovaVida",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/TesteNovaVida",
+      "RelativePath": "Uploads/ArquivoCSV#[.{fingerprint=7sjcucgwe4}]?.csv.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoCSV.csv",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wrinuss8wy",
+      "Integrity": "NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoCSV.csv"
     },
     {
       "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\zdmq3z1h6n-6pdc2jztkx.gz",
@@ -4847,12 +4826,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.csv",
+      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoCSV.csv",
       "SourceId": "TesteNovaVida",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\",
       "BasePath": "_content/TesteNovaVida",
-      "RelativePath": "Sample#[.{fingerprint}]?.csv",
+      "RelativePath": "Uploads/ArquivoCSV#[.{fingerprint}]?.csv",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4865,15 +4844,15 @@
       "Integrity": "J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Sample.csv"
+      "OriginalItemSpec": "wwwroot\\Uploads\\ArquivoCSV.csv"
     },
     {
-      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.txt",
+      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoTXT.txt",
       "SourceId": "TesteNovaVida",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\",
       "BasePath": "_content/TesteNovaVida",
-      "RelativePath": "Sample#[.{fingerprint}]?.txt",
+      "RelativePath": "Uploads/ArquivoTXT#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4882,32 +4861,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7sjcucgwe4",
-      "Integrity": "J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=",
+      "Fingerprint": "pssfe2zcq7",
+      "Integrity": "iYXHIGHyrtsWbwM94peOebYe9A+IWBqUs/BiWLWr2hk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Sample.txt"
-    },
-    {
-      "Identity": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\Sample.csv",
-      "SourceId": "TesteNovaVida",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\",
-      "BasePath": "_content/TesteNovaVida",
-      "RelativePath": "Uploads/Sample#[.{fingerprint}]?.csv",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "7sjcucgwe4",
-      "Integrity": "J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\Sample.csv"
+      "OriginalItemSpec": "wwwroot\\Uploads\\ArquivoTXT.txt"
     }
   ],
   "Endpoints": [
@@ -38072,602 +38030,6 @@
       ]
     },
     {
-      "Route": "Sample.7sjcucgwe4.csv",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\3xdgd61b6v-7sjcucgwe4.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.009900990099"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/csv"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7sjcucgwe4"
-        },
-        {
-          "Name": "label",
-          "Value": "Sample.csv"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.7sjcucgwe4.csv",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.csv",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/csv"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7sjcucgwe4"
-        },
-        {
-          "Name": "label",
-          "Value": "Sample.csv"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.7sjcucgwe4.csv.gz",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\3xdgd61b6v-7sjcucgwe4.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/csv"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7sjcucgwe4"
-        },
-        {
-          "Name": "label",
-          "Value": "Sample.csv.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.7sjcucgwe4.txt",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\m51a0r54x5-7sjcucgwe4.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.009900990099"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7sjcucgwe4"
-        },
-        {
-          "Name": "label",
-          "Value": "Sample.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.7sjcucgwe4.txt",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7sjcucgwe4"
-        },
-        {
-          "Name": "label",
-          "Value": "Sample.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.7sjcucgwe4.txt.gz",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\m51a0r54x5-7sjcucgwe4.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7sjcucgwe4"
-        },
-        {
-          "Name": "label",
-          "Value": "Sample.txt.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.csv",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\3xdgd61b6v-7sjcucgwe4.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.009900990099"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/csv"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.csv",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.csv",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/csv"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.csv.gz",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\3xdgd61b6v-7sjcucgwe4.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/csv"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.txt",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\m51a0r54x5-7sjcucgwe4.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.009900990099"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.txt",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "131"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="
-        }
-      ]
-    },
-    {
-      "Route": "Sample.txt.gz",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\m51a0r54x5-7sjcucgwe4.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "100"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 07:27:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU="
-        }
-      ]
-    },
-    {
       "Route": "TesteNovaVida.bundle.scp.css",
       "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\fa24kxk3tk-bupkw558zs.gz",
       "Selectors": [
@@ -39264,8 +38626,8 @@
       ]
     },
     {
-      "Route": "Uploads/Sample.7sjcucgwe4.csv",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\axtxsiehrp-7sjcucgwe4.gz",
+      "Route": "Uploads/ArquivoCSV.7sjcucgwe4.csv",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\zd5fyesvrd-7sjcucgwe4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -39288,7 +38650,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 12:24:12 GMT"
+          "Value": "Sun, 06 Jul 2025 23:19:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -39318,7 +38680,7 @@
         },
         {
           "Name": "label",
-          "Value": "Uploads/Sample.csv"
+          "Value": "Uploads/ArquivoCSV.csv"
         },
         {
           "Name": "integrity",
@@ -39327,8 +38689,8 @@
       ]
     },
     {
-      "Route": "Uploads/Sample.7sjcucgwe4.csv",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\Sample.csv",
+      "Route": "Uploads/ArquivoCSV.7sjcucgwe4.csv",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoCSV.csv",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -39349,7 +38711,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 12:24:12 GMT"
+          "Value": "Sun, 06 Jul 2025 23:19:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -39363,7 +38725,7 @@
         },
         {
           "Name": "label",
-          "Value": "Uploads/Sample.csv"
+          "Value": "Uploads/ArquivoCSV.csv"
         },
         {
           "Name": "integrity",
@@ -39372,8 +38734,8 @@
       ]
     },
     {
-      "Route": "Uploads/Sample.7sjcucgwe4.csv.gz",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\axtxsiehrp-7sjcucgwe4.gz",
+      "Route": "Uploads/ArquivoCSV.7sjcucgwe4.csv.gz",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\zd5fyesvrd-7sjcucgwe4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -39394,7 +38756,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 12:24:12 GMT"
+          "Value": "Sun, 06 Jul 2025 23:19:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -39416,7 +38778,7 @@
         },
         {
           "Name": "label",
-          "Value": "Uploads/Sample.csv.gz"
+          "Value": "Uploads/ArquivoCSV.csv.gz"
         },
         {
           "Name": "integrity",
@@ -39425,8 +38787,8 @@
       ]
     },
     {
-      "Route": "Uploads/Sample.csv",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\axtxsiehrp-7sjcucgwe4.gz",
+      "Route": "Uploads/ArquivoCSV.csv",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\zd5fyesvrd-7sjcucgwe4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -39449,7 +38811,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 12:24:12 GMT"
+          "Value": "Sun, 06 Jul 2025 23:19:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -39480,8 +38842,8 @@
       ]
     },
     {
-      "Route": "Uploads/Sample.csv",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\Sample.csv",
+      "Route": "Uploads/ArquivoCSV.csv",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoCSV.csv",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -39502,7 +38864,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 12:24:12 GMT"
+          "Value": "Sun, 06 Jul 2025 23:19:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -39517,8 +38879,8 @@
       ]
     },
     {
-      "Route": "Uploads/Sample.csv.gz",
-      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\axtxsiehrp-7sjcucgwe4.gz",
+      "Route": "Uploads/ArquivoCSV.csv.gz",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\zd5fyesvrd-7sjcucgwe4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -39539,7 +38901,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 06 Jul 2025 12:24:12 GMT"
+          "Value": "Sun, 06 Jul 2025 23:19:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -39558,6 +38920,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-NLM0i4931N2XHYlYEYYXGeAopjvPcPXib54ieq0HlSU="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ArquivoTXT.pssfe2zcq7.txt",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\nkae8z26fk-pssfe2zcq7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000782472613"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"78JY4cO14FAzE8YLdkx1LQnCOOaPN3TKFqVtNCcN6t0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 22:55:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iYXHIGHyrtsWbwM94peOebYe9A+IWBqUs/BiWLWr2hk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pssfe2zcq7"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/ArquivoTXT.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iYXHIGHyrtsWbwM94peOebYe9A+IWBqUs/BiWLWr2hk="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ArquivoTXT.pssfe2zcq7.txt",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoTXT.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iYXHIGHyrtsWbwM94peOebYe9A+IWBqUs/BiWLWr2hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 22:55:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pssfe2zcq7"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/ArquivoTXT.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iYXHIGHyrtsWbwM94peOebYe9A+IWBqUs/BiWLWr2hk="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ArquivoTXT.pssfe2zcq7.txt.gz",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\nkae8z26fk-pssfe2zcq7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"78JY4cO14FAzE8YLdkx1LQnCOOaPN3TKFqVtNCcN6t0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 22:55:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pssfe2zcq7"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/ArquivoTXT.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-78JY4cO14FAzE8YLdkx1LQnCOOaPN3TKFqVtNCcN6t0="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ArquivoTXT.txt",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\nkae8z26fk-pssfe2zcq7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000782472613"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"78JY4cO14FAzE8YLdkx1LQnCOOaPN3TKFqVtNCcN6t0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 22:55:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iYXHIGHyrtsWbwM94peOebYe9A+IWBqUs/BiWLWr2hk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iYXHIGHyrtsWbwM94peOebYe9A+IWBqUs/BiWLWr2hk="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ArquivoTXT.txt",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoTXT.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3357"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iYXHIGHyrtsWbwM94peOebYe9A+IWBqUs/BiWLWr2hk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 22:55:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iYXHIGHyrtsWbwM94peOebYe9A+IWBqUs/BiWLWr2hk="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/ArquivoTXT.txt.gz",
+      "AssetFile": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\compressed\\nkae8z26fk-pssfe2zcq7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"78JY4cO14FAzE8YLdkx1LQnCOOaPN3TKFqVtNCcN6t0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 06 Jul 2025 22:55:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-78JY4cO14FAzE8YLdkx1LQnCOOaPN3TKFqVtNCcN6t0="
         }
       ]
     }

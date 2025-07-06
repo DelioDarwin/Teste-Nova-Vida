@@ -1344,30 +1344,6 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 04 Jul 2025 22:20:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Sample.7sjcucgwe4.csv">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Sample.csv'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7sjcucgwe4"},{"Name":"integrity","Value":"sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="},{"Name":"label","Value":"_content/TesteNovaVida/Sample.csv"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"131"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 07:27:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Sample.7sjcucgwe4.txt">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Sample.txt'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7sjcucgwe4"},{"Name":"integrity","Value":"sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="},{"Name":"label","Value":"_content/TesteNovaVida/Sample.txt"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"131"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 07:27:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Sample.csv">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Sample.csv'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"131"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 07:27:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Sample.txt">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Sample.txt'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"131"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 07:27:49 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TesteNovaVida/TesteNovaVida.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TesteNovaVida.bupkw558zs.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -1380,17 +1356,29 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bupkw558zs"},{"Name":"integrity","Value":"sha256-02OI9HWKnWYT4ZXQWNrtldpy7FtHp7kGO55n8OwqvQ0="},{"Name":"label","Value":"_content/TesteNovaVida/TesteNovaVida.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002202OI9HWKnWYT4ZXQWNrtldpy7FtHp7kGO55n8OwqvQ0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 08:07:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Uploads/Sample.7sjcucgwe4.csv">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Sample.csv'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Uploads/ArquivoCSV.7sjcucgwe4.csv">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ArquivoCSV.csv'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7sjcucgwe4"},{"Name":"integrity","Value":"sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="},{"Name":"label","Value":"_content/TesteNovaVida/Uploads/Sample.csv"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"131"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 12:24:12 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7sjcucgwe4"},{"Name":"integrity","Value":"sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="},{"Name":"label","Value":"_content/TesteNovaVida/Uploads/ArquivoCSV.csv"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"131"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 23:19:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Uploads/Sample.csv">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Sample.csv'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Uploads/ArquivoCSV.csv">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ArquivoCSV.csv'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"131"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 12:24:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"131"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 23:19:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Uploads/ArquivoTXT.pssfe2zcq7.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ArquivoTXT.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pssfe2zcq7"},{"Name":"integrity","Value":"sha256-iYXHIGHyrtsWbwM94peOebYe9A\u002BIWBqUs/BiWLWr2hk="},{"Name":"label","Value":"_content/TesteNovaVida/Uploads/ArquivoTXT.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3357"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022iYXHIGHyrtsWbwM94peOebYe9A\u002BIWBqUs/BiWLWr2hk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 22:55:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TesteNovaVida/Uploads/ArquivoTXT.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ArquivoTXT.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iYXHIGHyrtsWbwM94peOebYe9A\u002BIWBqUs/BiWLWr2hk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3357"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022iYXHIGHyrtsWbwM94peOebYe9A\u002BIWBqUs/BiWLWr2hk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 06 Jul 2025 22:55:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

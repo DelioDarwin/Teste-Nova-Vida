@@ -363,8 +363,6 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compress
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\nsw0xirsr1-muycvpuwrr.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\qaj6vg4rng-87fc7y1x7t.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\zdz700jnfb-mlv21k5csn.gz
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\3xdgd61b6v-7sjcucgwe4.gz
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\axtxsiehrp-7sjcucgwe4.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\z3zn6mi0x7-bupkw558zs.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\fa24kxk3tk-bupkw558zs.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\staticwebassets.build.json
@@ -383,4 +381,5 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\refint\T
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.pdb
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.genruntimeconfig.cache
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\ref\TesteNovaVida.dll
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\m51a0r54x5-7sjcucgwe4.gz
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\nkae8z26fk-pssfe2zcq7.gz
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\zd5fyesvrd-7sjcucgwe4.gz

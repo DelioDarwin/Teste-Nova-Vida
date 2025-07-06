@@ -44,8 +44,9 @@ namespace TesteNovaVida.Controllers
 
             return View(aluno);
         }
+            
 
-        // GET: Alunoes/Create
+
         public IActionResult Create()
         {
             ViewData["IdProfessor"] = new SelectList(_context.Professor, "IdProfessor", "NomeProfessor");

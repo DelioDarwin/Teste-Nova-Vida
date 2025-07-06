@@ -18,7 +18,8 @@ namespace TesteNovaVida.Data
 
         public DbSet<Professor> Professor { get; set; } = default!;
         public DbSet<Aluno> Aluno { get; set; } = default!;
-
+        public DbSet<UltimaImportacao> UltimaImportacao { get; set; } = default!;
+        
         
     }
 }

@@ -181,16 +181,12 @@
       "PackagePath": "staticwebassets\\TesteNovaVida.bupkw558zs.bundle.scp.css"
     },
     {
-      "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.csv",
-      "PackagePath": "staticwebassets\\Sample.csv"
+      "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoCSV.csv",
+      "PackagePath": "staticwebassets\\Uploads\\ArquivoCSV.csv"
     },
     {
-      "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.txt",
-      "PackagePath": "staticwebassets\\Sample.txt"
-    },
-    {
-      "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\Sample.csv",
-      "PackagePath": "staticwebassets\\Uploads\\Sample.csv"
+      "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\ArquivoTXT.txt",
+      "PackagePath": "staticwebassets\\Uploads\\ArquivoTXT.txt"
     },
     {
       "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\css\\site.css",

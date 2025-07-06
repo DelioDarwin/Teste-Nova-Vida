@@ -49,7 +49,6 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dis
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\favicon.ico
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\js\jquery.validate-pt-BR.js
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\Sample.csv
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\js\sweetalert2.js
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
@@ -62,7 +61,6 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dis
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\Uploads\Sample.csv
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
@@ -90,7 +88,7 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery-valida
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\js\site.js
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\Sample.txt
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\Uploads\ArquivoTXT.txt
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery-validation\dist\additional-methods.js
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
@@ -110,6 +108,7 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery-valida
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery\dist\jquery.min.map
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\Uploads\ArquivoCSV.csv
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery\LICENSE.txt
 wwwroot\css\site.css
@@ -180,6 +179,5 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-wwwroot\Sample.csv
-wwwroot\Sample.txt
-wwwroot\Uploads\Sample.csv
+wwwroot\Uploads\ArquivoCSV.csv
+wwwroot\Uploads\ArquivoTXT.txt

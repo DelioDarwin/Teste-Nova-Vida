@@ -58,7 +58,7 @@
 
         Swal.fire({
             title: "Confirmação",
-            text: "Deseja excluir este professor?",
+            text: "Deseja excluir este professor e todos os alunos que já foram associados a ele?",
             icon: "warning",
             showCancelButton: true,
             buttonsStyling: false,
@@ -107,7 +107,7 @@
             }
         });
         Toast.fire({
-            title: "O professor foi <b style='color:red'>excluído</b>!.",
+            title: "O professor e todos os seus respectivos alunos foram <b style='color:red'>excluídos</b>!.",
             icon: "danger"
         }).then(function () {
             return true;

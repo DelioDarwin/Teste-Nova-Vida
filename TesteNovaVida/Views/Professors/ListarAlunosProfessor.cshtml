@@ -5,63 +5,80 @@
     ViewData["Title"] = "Alunos do professor";
 
 <h2>Alunos do professor: <b style="color: blue">@Context.Request.Query["nome"]</b></h2>
-
 <hr />
-<br />
+
+@if (@Context.Request.Query["import"].ToString() == "s")
+{
+    <div class="alert alert-success alert-with-icon" role="alert">
+        <div class="alert-icon-box" style="display: inline-block; float: left; width: 40px; position: relative;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+        </div>
+        Foram importados <b>@Context.Request.Query["total"].ToString()</b> novos alunos e associados ao professor: <b>@Context.Request.Query["nome"].ToString()</b>
+    </div>
+    <hr />
+}
 
 @if (Model.Count() > 0)
 {
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    Nome do aluno
-                </th>
-                <th>
-                    Valor da mensalidade
-                </th>
-                <th>
-                    Data de vencimento
-                </th>
-                <th></th>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
+    <span class="ml-1">Total de Alunos: <b>@Model.Count().ToString()</b></span>
+    <hr />
+    <div style="height: 400px; overflow-x: auto">
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.NomeAluno)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ValorMensalidade)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DataVencimento)
-                    </td>
-                    <td>
-                        <a asp-controller="Alunoes" asp-action="Edit" asp-route-id="@item.IdAluno" class="text-decoration-none">
-                            <input class="btn btn-sm btn-outline-success mr-2" value="Alterar" style="width: 80px" />
-                        </a> 
-                        <a href='#' class="btnExcluir text-decoration-none" name="@item.IdAluno">
-                            <input class="btn btn-sm btn-outline-danger" value="Excluir" style="width: 80px" />
-                        </a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+                    <th>
+                        Nome do aluno
+                    </th>
+                    <th>
+                        Valor da mensalidade
+                    </th>
+                    <th>
+                        Data de vencimento
+                    </th>
+                    <th>
+                        Ações
+                    </th>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NomeAluno)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ValorMensalidade)
+                        </td>
+                        <td>
+                            @Convert.ToDateTime(item.DataVencimento).ToString("dd/MM/yyyy")
+                        </td>
+                        <td>
+                            <a asp-controller="Alunoes" asp-action="Edit" asp-route-id="@item.IdAluno" class="text-decoration-none">
+                                <input class="btn btn-sm btn-outline-success mr-2" value="Alterar" style="width: 80px" />
+                            </a> 
+                            <a href='#' class="btnExcluir text-decoration-none" name="@item.IdAluno">
+                                <input class="btn btn-sm btn-outline-danger" value="Excluir" style="width: 80px" />
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 }
 
 @if (Model.Count() == 0)
 {
-    <div class="alert alert-warning alert-with-icon" role="alert" style="margin-top: 20px">
-            <div class="alert-icon-box" style="display: contents !important;">
+    <div class="alert alert-warning alert-with-icon" role="alert">
+        <div class="alert-icon-box" style="display: inline-block; float: left; width: 40px; position: relative;">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock alert-icon">
                 <circle cx="12" cy="12" r="10"></circle>
                 <polyline points="12 6 12 12 16 14"></polyline>
             </svg>
         </div>
-        Nenhum aluno foi incluido para este professor ainda
+        Nenhum aluno foi incluido para este professor ainda!
     </div>
 }
 <br />
@@ -69,8 +86,8 @@
 <hr />
 <div class="d-inline-block">
     <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Alunoes")'">Incluir aluno</button>
+    <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Index", "Import",  new { id = @Context.Request.RouteValues["id"], nome = @Context.Request.Query["nome"] })'">Importar Alunos</button>
     <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Professors")'">Listar professores</button>
-    <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Import",  new { id = @Context.Request.RouteValues["id"], nome = @Context.Request.Query["nome"] })'">Importar Alunos</button>
 </div>
 
 
