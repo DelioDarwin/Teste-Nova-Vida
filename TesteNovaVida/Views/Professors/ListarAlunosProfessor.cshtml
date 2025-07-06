@@ -70,7 +70,7 @@
 <div class="d-inline-block">
     <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Alunoes")'">Incluir aluno</button>
     <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Professors")'">Listar professores</button>
-    <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Import",  new { id = @Context.Request.RouteValues["id"] })'">Importar Alunos</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Import",  new { id = @Context.Request.RouteValues["id"], nome = @Context.Request.Query["nome"] })'">Importar Alunos</button>
 </div>
 
 
