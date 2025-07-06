@@ -1,76 +1,80 @@
-﻿@using TesteNovaVida.Models
+﻿@* @using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor *@
+@using TesteNovaVida.Models
 @model IEnumerable<Aluno>
+@{
+    var nomeProfessor = @Context.Request.Query["nome"];
+}
 
 <!DOCTYPE html>
 
-    <style type="text/css">
-        body {
-            font-family: Arial;
-            font-size: 10pt;
-        }
-
-        table {
-            border: 1px solid #ccc;
-            border-collapse: collapse;
-            background-color: #fff;
-        }
-
-            table th {
-                background-color: #B8DBFD;
-                color: #333;
-                font-weight: bold;
-            }
-
-            table th, table td {
-                padding: 5px;
-                border: 1px solid #ccc;
-            }
-
-            table, table table td {
-                border: 0px solid #ccc;
-            }
-    </style>
-
-    <h2>Importar Alunos</h2>
-    <hr />
-    <br />
-
-    @using (Html.BeginForm("Index", "Import",  FormMethod.Post, new { enctype = "multipart/form-data" }))
-    {
-        <input type="hidden" name="id" value="@Context.Request.RouteValues["id"]" />
-        <input type="file" name="postedFile" />
-        <input type="submit" value="Import" />
+<style type="text/css">
+    body {
+    font-family: Arial;
+    font-size: 10pt;
     }
-    @if (Model.Count() > 0)
-    {
-        <hr />
-        <table cellpadding="0" cellspacing="0">
+
+    table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    background-color: #fff;
+    }
+
+    table th {
+    background-color: #B8DBFD;
+    color: #333;
+    font-weight: bold;
+    }
+
+    table th, table td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    }
+
+    table, table table td {
+    border: 0px solid #ccc;
+    }
+</style>
+
+
+<h2>Alunos do professor: <b style="color: blue">@nomeProfessor</b> </h2>
+<hr />
+<br />
+
+@using (Html.BeginForm("Index", "Import",  FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="hidden" name="id" value="@Context.Request.RouteValues["id"]" />
+    <input type="hidden" name="nome" value="@Context.Request.Query["nome"]" />
+    <input class="form-control form-control-sm" type="file" name="postedFile" />
+
+    <input type="submit" value="Importar TXT/CSV" class="btn btn-primary mt-2" />
+}
+@if (Model.Count() > 0)
+{
+    <hr />
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <th>Nome do aluno</th>
+            <th>Valor da mensalidade</th>
+            <th>Data de vencimento</th>
+        </tr>
+        @foreach (Aluno aluno in Model)
+        {
             <tr>
-                <th>Nome do aluno</th>
-                <th>Valor da mensalidade</th>
-                <th>Data de vencimento</th>
+                <td>@aluno.NomeAluno</td>
+                <td>@aluno.ValorMensalidade</td>
+                <td>@aluno.DataVencimento</td>
+
             </tr>
-            @foreach (Aluno aluno in Model)
-            {
-                <tr>
-                    <td>@aluno.NomeAluno</td>
-                    <td>@aluno.ValorMensalidade</td>
-                    <td>@aluno.DataVencimento</td>
+        }
+    </table>
+}
 
-                </tr>
-            }
-        </table>
-    }
-    
 
-    <br />
+<br />
 
-    <hr />
-    <div class="d-inline-block">
-    </a>
-    <a asp-action="ListarAlunosProfessor" asp-route-id="@Context.Request.RouteValues["id"]" asp-route-nome="@Context.Request.RouteValues["nome"]" class="text-decoration-none">
-        <input class="btn btn-sm btn-outline-secondary" value="Listar seus alunos" style="width: 150px" />
-    </a>
-    <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("ListarAlunosProfessor", "Professors",  new { id = @Context.Request.RouteValues["id"], nome = @Context.Request.Query["nome"] })'">Voltar</button>
-    </div>
+<hr />
+<div class="d-inline-block">
+   <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("ListarAlunosProfessor", "Professors",  new { id = @Context.Request.RouteValues["id"], nome = nomeProfessor })'">Voltar</button>
+</div>
 

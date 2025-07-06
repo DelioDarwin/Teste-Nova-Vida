@@ -90,6 +90,7 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery-valida
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\js\site.js
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\Sample.txt
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery\dist\jquery.slim.min.js
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\jquery-validation\dist\additional-methods.js
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
@@ -180,4 +181,5 @@ wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\Sample.csv
+wwwroot\Sample.txt
 wwwroot\Uploads\Sample.csv

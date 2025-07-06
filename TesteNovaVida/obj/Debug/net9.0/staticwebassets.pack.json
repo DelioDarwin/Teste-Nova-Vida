@@ -185,6 +185,10 @@
       "PackagePath": "staticwebassets\\Sample.csv"
     },
     {
+      "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.txt",
+      "PackagePath": "staticwebassets\\Sample.txt"
+    },
+    {
       "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\Sample.csv",
       "PackagePath": "staticwebassets\\Uploads\\Sample.csv"
     },

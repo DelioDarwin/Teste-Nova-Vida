@@ -383,3 +383,4 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\refint\T
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.pdb
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.genruntimeconfig.cache
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\ref\TesteNovaVida.dll
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\m51a0r54x5-7sjcucgwe4.gz

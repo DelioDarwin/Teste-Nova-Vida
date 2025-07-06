@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using System.Globalization;
 using TesteNovaVida;
 using TesteNovaVida.Data;
@@ -8,10 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TesteNovaVidaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("TesteNovaVidaContext") ?? throw new InvalidOperationException("Connection string 'TesteNovaVidaContext' not found.")));
 
 
-
+//Setando as configurações de região: Brasil 
 builder.Services.Configure<RequestLocalizationOptions>(options =>
 {
-
     var cultureInfo = new CultureInfo("pt-BR");
     cultureInfo.NumberFormat.CurrencySymbol = "R$";
 
@@ -28,18 +28,27 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     }));
 });
 
+////Uso de Sessão
+//builder.Services.AddDistributedMemoryCache();
+//builder.Services.AddSession(options =>
+//{
+//    options.IdleTimeout = TimeSpan.FromSeconds(10);
+//    options.Cookie.HttpOnly = true;
+//    options.Cookie.IsEssential = true;
+//});
+
+// builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-   app.UseRequestLocalization(); // Add this line
+app.UseRequestLocalization();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

@@ -1,1 +1,3 @@
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\Sample.csv
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\Uploads\Sample.csv
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\wwwroot\Sample.txt

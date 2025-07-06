@@ -1,15 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.IO;
-using TesteNovaVida.Models;
-using System.IO;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
+﻿using TesteNovaVida.Models;
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using TesteNovaVida.Data;
 
 
@@ -35,7 +26,7 @@ namespace TesteNovaVida.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(string id, IFormFile postedFile)
+        public ActionResult Index(string id, string nome, IFormFile postedFile)
         {
             List<Aluno> alunos = new List<Aluno>();
 
@@ -51,7 +42,7 @@ namespace TesteNovaVida.Controllers
                 using (FileStream stream = new FileStream(Path.Combine(path, fileName), FileMode.Create))
                 {
                     postedFile.CopyTo(stream);
-                  stream.Dispose();
+                    stream.Dispose();
 
                     //Read the contents of CSV file.
                     string csvData = System.IO.File.ReadAllText(filePath);
@@ -78,7 +69,7 @@ namespace TesteNovaVida.Controllers
                 }
             
             }
-                return View(alunos);
+            return RedirectToAction("ListarAlunosProfessor", "Professors", new { id = id, nome = nome });
         }
 
     }
