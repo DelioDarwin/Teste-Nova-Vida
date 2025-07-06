@@ -1,0 +1,32 @@
+﻿@model TesteNovaVida2.Models.Professor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h4 class="mt-2 mb-0">Incluir Professor</h4>
+<hr class="mt-0" />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NomeProfessor" class="control-label"> Nome do professor</label>
+                <input asp-for="NomeProfessor" class="form-control" />
+                <span asp-validation-for="NomeProfessor" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <input type="submit" value="Incluir" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<hr />
+<button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Professors")'">Listar professores</button>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

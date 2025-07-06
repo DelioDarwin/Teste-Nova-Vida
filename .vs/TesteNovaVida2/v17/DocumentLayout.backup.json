@@ -1,0 +1,690 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\professors\\listaralunosprofessor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\professors\\listaralunosprofessor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\controllers\\professorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\controllers\\professorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\models\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\alunoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\alunoes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delio\\AppData\\Local\\SourceServer\\bb50b6be146e184dabfdb3fa798272509904c7b6105fa0f895360d4c4a47c295\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\data\\testenovavida2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\data\\testenovavida2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\professors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\professors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\controllers\\alunoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\controllers\\alunoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\alunoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\alunoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\professors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\professors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\alunoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\alunoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\testenovavida2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\testenovavida2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\decimalmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\decimalmodelbinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\wwwroot\\js\\jquery.inputmask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\wwwroot\\js\\jquery.inputmask.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\delio\\.nuget\\packages\\jquery.validation.globalize\\1.1.0\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\wwwroot\\js\\jquery.numeric.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\wwwroot\\js\\jquery.numeric.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\professors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\professors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\wwwroot\\css\\sweetalert2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\wwwroot\\css\\sweetalert2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\wwwroot\\js\\sweetalert2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\wwwroot\\js\\sweetalert2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|d:\\teste\\testenovavida2\\testenovavida2\\testenovavida2\\wwwroot\\js\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6367EAD-1AA1-4548-86FC-C4A186086DF4}|TesteNovaVida2\\TesteNovaVida2.csproj|solutionrelative:testenovavida2\\wwwroot\\js\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Properties\\serviceDependencies.local.json.user||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TesteNovaVida2\\Properties\\serviceDependencies.local.json.user||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TesteNovaVida2\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TesteNovaVida2\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 101,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Alunoes\\Index.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Alunoes\\Index.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Alunoes\\Index.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Alunoes\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T23:48:37.972Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActionMethodExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\delio\\AppData\\Local\\SourceServer\\bb50b6be146e184dabfdb3fa798272509904c7b6105fa0f895360d4c4a47c295\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs",
+              "ToolTip": "C:\\Users\\delio\\AppData\\Local\\SourceServer\\bb50b6be146e184dabfdb3fa798272509904c7b6105fa0f895360d4c4a47c295\\src\\Mvc\\Mvc.Core\\src\\Infrastructure\\ActionMethodExecutor.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAD4vwIBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T11:48:08.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Models\\Aluno.cs",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Models\\Aluno.cs",
+              "RelativeToolTip": "TesteNovaVida2\\Models\\Aluno.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T22:57:52.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListarAlunosProfessor.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Professors\\ListarAlunosProfessor.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Professors\\ListarAlunosProfessor.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Professors\\ListarAlunosProfessor.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Professors\\ListarAlunosProfessor.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T00:08:50.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Professor.cs",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Models\\Professor.cs",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Models\\Professor.cs",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Models\\Professor.cs",
+              "RelativeToolTip": "TesteNovaVida2\\Models\\Professor.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAawBAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T22:24:51.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfessorsController.cs",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Controllers\\ProfessorsController.cs",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Controllers\\ProfessorsController.cs",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Controllers\\ProfessorsController.cs",
+              "RelativeToolTip": "TesteNovaVida2\\Controllers\\ProfessorsController.cs",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAtwKMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:17:41.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TesteNovaVida2Context.cs",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Data\\TesteNovaVida2Context.cs",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Data\\TesteNovaVida2Context.cs",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Data\\TesteNovaVida2Context.cs",
+              "RelativeToolTip": "TesteNovaVida2\\Data\\TesteNovaVida2Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T22:37:53.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Professors\\Index.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Professors\\Index.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Professors\\Index.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Professors\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T23:43:25.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AlunoesController.cs",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Controllers\\AlunoesController.cs",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Controllers\\AlunoesController.cs",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Controllers\\AlunoesController.cs",
+              "RelativeToolTip": "TesteNovaVida2\\Controllers\\AlunoesController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAArwDoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:18:13.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TesteNovaVida2\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T04:18:27.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Alunoes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Alunoes\\Edit.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Alunoes\\Edit.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Alunoes\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T23:49:27.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Professors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Professors\\Edit.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Professors\\Edit.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Professors\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T23:45:42.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Alunoes\\Create.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Alunoes\\Create.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Alunoes\\Create.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Alunoes\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T23:35:46.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T00:43:18.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T05:57:32.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TesteNovaVida2",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2.csproj",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\TesteNovaVida2.csproj",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2.csproj",
+              "RelativeToolTip": "TesteNovaVida2\\TesteNovaVida2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-05T07:38:48.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "web.config",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\web.config",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\web.config",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\web.config",
+              "RelativeToolTip": "TesteNovaVida2\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-05T10:54:01.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Program.cs",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Program.cs",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Program.cs",
+              "RelativeToolTip": "TesteNovaVida2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T23:10:25.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Home\\Index.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T03:42:59.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DecimalModelBinder.cs",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\DecimalModelBinder.cs",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\DecimalModelBinder.cs",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\DecimalModelBinder.cs",
+              "RelativeToolTip": "TesteNovaVida2\\DecimalModelBinder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T11:03:22.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "jquery.inputmask.js",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\jquery.inputmask.js",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\wwwroot\\js\\jquery.inputmask.js",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\jquery.inputmask.js",
+              "RelativeToolTip": "TesteNovaVida2\\wwwroot\\js\\jquery.inputmask.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-05T07:53:40.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "jquery.validate.js",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "RelativeToolTip": "TesteNovaVida2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+              "ViewState": "AgIAAM8FAAAAAAAAAAD4v9UFAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-05T07:53:55.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\delio\\.nuget\\packages\\jquery.validation.globalize\\1.1.0\\README.md",
+              "ToolTip": "C:\\Users\\delio\\.nuget\\packages\\jquery.validation.globalize\\1.1.0\\README.md [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-07-05T09:40:19.949Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TesteNovaVida2\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-05T07:52:47.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "serviceDependencies.local.json.user",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Properties\\serviceDependencies.local.json.user",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Properties\\serviceDependencies.local.json.user",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Properties\\serviceDependencies.local.json.user",
+              "RelativeToolTip": "TesteNovaVida2\\Properties\\serviceDependencies.local.json.user",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2025-07-05T07:52:44.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "TesteNovaVida2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAL8BAAAAAAAAAAAUwNUBAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-05T08:43:36.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "jquery.numeric.js",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\jquery.numeric.js",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\wwwroot\\js\\jquery.numeric.js",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\jquery.numeric.js",
+              "RelativeToolTip": "TesteNovaVida2\\wwwroot\\js\\jquery.numeric.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-05T08:06:19.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Properties\\serviceDependencies.json",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "TesteNovaVida2\\Properties\\serviceDependencies.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-05T07:52:46.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Professors\\Create.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Professors\\Create.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Professors\\Create.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Professors\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T23:45:45.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "sweetalert2.css",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\css\\sweetalert2.css",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\wwwroot\\css\\sweetalert2.css",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\css\\sweetalert2.css",
+              "RelativeToolTip": "TesteNovaVida2\\wwwroot\\css\\sweetalert2.css",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAcwHoBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-05T04:03:16.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "sweetalert2.js",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\sweetalert2.js",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\wwwroot\\js\\sweetalert2.js",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\sweetalert2.js",
+              "RelativeToolTip": "TesteNovaVida2\\wwwroot\\js\\sweetalert2.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAC0HwAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-05T04:03:15.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T05:57:20.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T05:57:25.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "TesteNovaVida2\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T05:57:18.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "TesteNovaVida2\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-05T04:09:58.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TesteNovaVida2\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-05T04:10:02.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TesteNovaVida2\\Controllers\\HomeController.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T02:47:49.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "jQuery.js",
+              "DocumentMoniker": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\jQuery.js",
+              "RelativeDocumentMoniker": "TesteNovaVida2\\wwwroot\\js\\jQuery.js",
+              "ToolTip": "D:\\Teste\\TesteNovaVida2\\TesteNovaVida2\\TesteNovaVida2\\wwwroot\\js\\jQuery.js",
+              "RelativeToolTip": "TesteNovaVida2\\wwwroot\\js\\jQuery.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-05T02:09:26.987Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 30,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
