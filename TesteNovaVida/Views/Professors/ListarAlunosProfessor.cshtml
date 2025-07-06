@@ -1,0 +1,143 @@
+﻿@using System.Globalization
+@model IEnumerable<TesteNovaVida.Models.Aluno>
+
+@if (Model.Count() > 0)
+    ViewData["Title"] = "Alunos do professor";
+
+<h2>Alunos do professor: <b style="color: blue">@Context.Request.Query["nome"]</b></h2>
+
+<hr />
+<br />
+
+@if (Model.Count() > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nome do aluno
+                </th>
+                <th>
+                    Valor da mensalidade
+                </th>
+                <th>
+                    Data de vencimento
+                </th>
+                <th></th>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NomeAluno)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorMensalidade)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataVencimento)
+                    </td>
+                    <td>
+                        <a asp-controller="Alunoes" asp-action="Edit" asp-route-id="@item.IdAluno" class="text-decoration-none">
+                            <input class="btn btn-sm btn-outline-success mr-2" value="Alterar" style="width: 80px" />
+                        </a> 
+                        <a href='#' class="btnExcluir text-decoration-none" name="@item.IdAluno">
+                            <input class="btn btn-sm btn-outline-danger" value="Excluir" style="width: 80px" />
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (Model.Count() == 0)
+{
+    <div class="alert alert-warning alert-with-icon" role="alert" style="margin-top: 20px">
+            <div class="alert-icon-box" style="display: contents !important;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock alert-icon">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+        </div>
+        Nenhum aluno foi incluido para este professor ainda
+    </div>
+}
+<br />
+
+<hr />
+<div class="d-inline-block">
+    <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Alunoes")'">Incluir aluno</button>
+    <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Professors")'">Listar professores</button>
+</div>
+
+
+<script src="~/js/jquery.js"></script>
+
+<script type="text/javascript">
+
+    $(".table").on("click", ".btnExcluir", deleteRow);
+
+    function deleteRow() {
+
+        Swal.fire({
+            title: "Confirmação",
+            text: "Deseja excluir este aluno?",
+            icon: "warning",
+            showCancelButton: true,
+            buttonsStyling: false,
+            confirmButtonText: "Sim, Excluir!",
+            cancelButtonText: "Não, cancelar!",            
+            customClass: {
+                confirmButton: 'btn btn-danger',
+                cancelButton: 'btn btn-outline-secondary'
+            }
+        }).then((result) => {
+            if (result.isConfirmed) {
+                var id  = $(this).attr("name");
+                Delete(id);
+
+                var par = $(this).parent().parent();
+                par.remove();
+            }
+            else {
+                return false;
+            }
+        });
+    };
+
+
+    function Delete(id) {
+
+        $.post({
+            url: '/Alunoes/DeleteDirect/' + id,
+            success: function (result, status, xhr) {
+               msgAlunoExcluido();
+            },
+        });
+
+    }
+
+    function msgAlunoExcluido() {
+        const Toast = Swal.mixin({
+            toast: true,
+            position: "center-center",
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+                toast.onmouseenter = Swal.stopTimer;
+                toast.onmouseleave = Swal.resumeTimer;
+            }
+        });
+        Toast.fire({
+            title: "O aluno foi <b style='color:red'>excluído</b>!.",
+            icon: "danger"
+        }).then(function () {
+            return true;
+
+        });
+    }
+
+    </script>

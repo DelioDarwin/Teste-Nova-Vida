@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TesteNovaVida2.props" />
+</Project>
