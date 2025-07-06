@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Globalization;
-using System.Web.Mvc;
 using TesteNovaVida;
 using TesteNovaVida.Data;
 var builder = WebApplication.CreateBuilder(args);

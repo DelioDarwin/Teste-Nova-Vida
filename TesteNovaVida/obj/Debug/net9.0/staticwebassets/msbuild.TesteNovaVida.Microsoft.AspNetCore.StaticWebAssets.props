@@ -2016,23 +2016,59 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TesteNovaVida.9ug7xpm4jv.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Sample.csv'))">
       <SourceType>Package</SourceType>
       <SourceId>TesteNovaVida</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/TesteNovaVida</BasePath>
-      <RelativePath>TesteNovaVida.9ug7xpm4jv.bundle.scp.css</RelativePath>
+      <RelativePath>Sample.csv</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7sjcucgwe4</Fingerprint>
+      <Integrity>J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Sample.csv'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TesteNovaVida.bupkw558zs.bundle.scp.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TesteNovaVida</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TesteNovaVida</BasePath>
+      <RelativePath>TesteNovaVida.bupkw558zs.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>9ug7xpm4jv</Fingerprint>
-      <Integrity>AXaw1Hyd730h651ktFljn++M5lM62/VSnwp5AnP5IJA=</Integrity>
+      <Fingerprint>bupkw558zs</Fingerprint>
+      <Integrity>02OI9HWKnWYT4ZXQWNrtldpy7FtHp7kGO55n8OwqvQ0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TesteNovaVida.9ug7xpm4jv.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TesteNovaVida.bupkw558zs.bundle.scp.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Sample.csv'))">
+      <SourceType>Package</SourceType>
+      <SourceId>TesteNovaVida</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/TesteNovaVida</BasePath>
+      <RelativePath>Uploads/Sample.csv</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7sjcucgwe4</Fingerprint>
+      <Integrity>J30AolAsYpcWfL/PjKECEqveXh6ONsgd2nCpDK9cCn8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\Sample.csv'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesteNovaVida")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fcba31a4453b9caee5a3d4629461aceb3e5a356")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23f5a5cbf321de35d7fca9f8cf0d06ac5864b3cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesteNovaVida")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesteNovaVida")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

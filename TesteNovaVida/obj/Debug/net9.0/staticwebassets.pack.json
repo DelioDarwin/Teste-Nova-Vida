@@ -178,7 +178,15 @@
     },
     {
       "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TesteNovaVida.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TesteNovaVida.9ug7xpm4jv.bundle.scp.css"
+      "PackagePath": "staticwebassets\\TesteNovaVida.bupkw558zs.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Sample.csv",
+      "PackagePath": "staticwebassets\\Sample.csv"
+    },
+    {
+      "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\Uploads\\Sample.csv",
+      "PackagePath": "staticwebassets\\Uploads\\Sample.csv"
     },
     {
       "Id": "D:\\Teste\\Teste-Nova-Vida\\Teste-Nova-Vida\\TesteNovaVida\\wwwroot\\css\\site.css",
