@@ -10,7 +10,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
-    <style type="text/css">
+@*     <style type="text/css">
         body {
             font-family: Arial;
             font-size: 10pt;
@@ -36,19 +36,23 @@
             table, table table td {
                 border: 0px solid #ccc;
             }
-    </style>
+    </style> *@
 </head>
 <body>
+    <h2>Importar Alunos</h2>
+    <hr />
+    <br />
+
     @using (Html.BeginForm("Index", "Import",  FormMethod.Post, new { enctype = "multipart/form-data" }))
     {
-        <input type="hidden" name="id" value="2" />
+        <input type="hidden" name="id" value="@Context.Request.RouteValues["id"]" />
         <input type="file" name="postedFile" />
         <input type="submit" value="Import" />
     }
     @if (Model.Count() > 0)
     {
         <hr />
-        <table cellpadding="0" cellspacing="0">
+        <table class="table" cellpadding="0" cellspacing="0">
             <tr>
                 <th>Nome do aluno</th>
                 <th>Valor da mensalidade</th>

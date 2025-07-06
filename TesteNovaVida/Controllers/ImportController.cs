@@ -65,60 +65,21 @@ namespace TesteNovaVida.Controllers
                             aluno.IdProfessor = Convert.ToInt32(id);
                             aluno.NomeAluno = row.Split(',')[0];
                             aluno.ValorMensalidade = Convert.ToDecimal(row.Split(',')[1]);
-                                aluno.DataVencimento = Convert.ToDateTime(row.Split(',')[2]);
+                            aluno.DataVencimento = Convert.ToDateTime(row.Split(',')[2]);
 
                             alunos.Add(aluno);
 
                             _context.Add(aluno);
-                             _context.SaveChanges();
-
-                            //alunos.Add(new Aluno
-                            //{
-                            //    NomeAluno = row.Split(',')[0],
-                            //    ValorMensalidade = Convert.ToDecimal(row.Split(',')[1]),
-                            //    DataVencimento = Convert.ToDateTime(row.Split(',')[2])
-
-                                  
-                            //});
+                           _context.SaveChanges();
                         }
                     }
 
                       
                 }
-
-
-                //    string path = Server.MapPath("~/Uploads/");
-                //    if (!Directory.Exists(path))
-                //    {
-                //        Directory.CreateDirectory(path);
-                //    }
-
-                //    filePath = path + Path.GetFileName(postedFile.FileName);
-                //    string extension = Path.GetExtension(postedFile.FileName);
-                //    postedFile.CopyToAsync(filePath);
-
-                //    //Read the contents of CSV file.
-                //    string csvData = System.IO.File.ReadAllText(filePath);
-
-                //    //Execute a loop over the rows.
-                //    foreach (string row in csvData.Split('\n'))
-                //    {
-                //        if (!string.IsNullOrEmpty(row))
-                //        {
-                //            customers.Add(new Aluno
-                //            {
-                //                NomeAluno = row.Split(',')[0],
-                //                ValorMensalidade = Convert.ToDecimal(row.Split(',')[1]),
-                //                DataVencimento = Convert.ToDateTime(row.Split(',')[2])
-                //            });
-                //        }
-                //    }
-                //}
-
             
             }
                 return View(alunos);
         }
 
-        }
     }
+}
