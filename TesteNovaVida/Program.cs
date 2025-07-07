@@ -20,8 +20,7 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
 
     options.AddInitialRequestCultureProvider(new CustomRequestCultureProvider(async context =>
     {
-    // My custom request culture logic
-    return await Task.FromResult(new ProviderCultureResult("pt-BR"));
+        return await Task.FromResult(new ProviderCultureResult("pt-BR"));
     }));
 });
 
@@ -36,13 +35,13 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
 
 // builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
-// Add services to the container.
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 app.UseRequestLocalization();
 
-// Configure the HTTP request pipeline.
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
