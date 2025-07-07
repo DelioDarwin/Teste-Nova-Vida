@@ -32,6 +32,12 @@ Delio Darwin
   - Tramento de exeções redirecionamentos das rotas implmentações das actions dos controlores todar a navegação fluida e intuitiva
   - Testes realizados por horas prevendo todos os tipos falhas possíveis
 
+# DER Banco SQL Server
+![image](https://github.com/user-attachments/assets/004d4270-15eb-4845-be6d-70a800459bb3)
+
+# Arquivo de configuração (Alterar o limite de intervalo de tempo de uma importação ou outra em minutos) / Alterar a string de conexão
+![image](https://github.com/user-attachments/assets/a41226d1-a1d4-4be5-9c6a-512f15163e7c)
+
 -------------------------------------------------------------------------------------------
 
 # Escopo
