@@ -25,30 +25,13 @@ namespace TesteNovaVida.Controllers
             var TesteNovaVidaContext = _context.Aluno.Include(a => a.Professor);
             return View(await TesteNovaVidaContext.ToListAsync());
         }
+          
 
-        // GET: Alunoes/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Create(string? nome)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (nome != null)
+                ViewData["nomeProf"] = nome;
 
-            var aluno = await _context.Aluno
-                .Include(a => a.Professor)
-                .FirstOrDefaultAsync(m => m.IdAluno == id);
-            if (aluno == null)
-            {
-                return NotFound();
-            }
-
-            return View(aluno);
-        }
-            
-
-
-        public IActionResult Create()
-        {
             ViewData["IdProfessor"] = new SelectList(_context.Professor, "IdProfessor", "NomeProfessor");
             return View();
         }
@@ -56,13 +39,18 @@ namespace TesteNovaVida.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdAluno,IdProfessor,NomeAluno,ValorMensalidade,DataVencimento")] Aluno aluno)
+        public async Task<IActionResult> Create([Bind("IdAluno,IdProfessor,NomeAluno,ValorMensalidade,DataVencimento")] Aluno aluno , string? nome)
         {
             if (ModelState.IsValid)
             {                
                 _context.Add(aluno);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+               
+                if (nome == null) 
+                     return RedirectToAction(nameof(Index));
+                else
+                     return RedirectToAction("ListarAlunosProfessor", "Professors", new { id = aluno.IdProfessor, nome = nome });
+
             }
             ViewData["IdProfessor"] = new SelectList(_context.Professor, "IdProfessor", "NomeProfessor", aluno.IdProfessor);
             return View(aluno);
@@ -88,7 +76,7 @@ namespace TesteNovaVida.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdAluno,IdProfessor,NomeAluno,ValorMensalidade,DataVencimento")] Aluno aluno)
+        public async Task<IActionResult> Edit(int id, [Bind("IdAluno,IdProfessor,NomeAluno,ValorMensalidade,DataVencimento")] Aluno aluno, string? nome)
         {
             if (id != aluno.IdAluno)
             {
@@ -113,10 +101,19 @@ namespace TesteNovaVida.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+
+                if (nome == null) 
+                     return RedirectToAction(nameof(Index));
+                else
+                     return RedirectToAction("ListarAlunosProfessor", "Professors", new { id = aluno.IdProfessor, nome = nome });
+              
             }
+
             ViewData["IdProfessor"] = new SelectList(_context.Professor, "IdProfessor", "NomeProfessor", aluno.IdProfessor);
+
             return View(aluno);
+
+
         }
 
         // GET: Alunoes/Delete/5

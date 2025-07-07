@@ -2,7 +2,9 @@
 @model IEnumerable<TesteNovaVida.Models.Aluno>
 
 @if (Model.Count() > 0)
+{
     ViewData["Title"] = "Alunos do professor";
+}
 
 <h2>Alunos do professor: <b style="color: blue">@Context.Request.Query["nome"]</b></h2>
 <hr />
@@ -24,7 +26,7 @@
 {
     <span class="ml-1">Total de Alunos: <b>@Model.Count().ToString()</b></span>
     <hr />
-    <div style="height: 400px; overflow-x: auto">
+    <div style="max-height: 400px; overflow-x: auto">
         <table class="table">
             <thead>
                 <tr>
@@ -55,7 +57,7 @@
                             @Convert.ToDateTime(item.DataVencimento).ToString("dd/MM/yyyy")
                         </td>
                         <td>
-                            <a asp-controller="Alunoes" asp-action="Edit" asp-route-id="@item.IdAluno" class="text-decoration-none">
+                            <a asp-controller="Alunoes" asp-action="Edit" asp-route-id="@item.IdAluno" asp-route-idprof="@item.IdProfessor"  asp-route-nome="@Context.Request.Query["nome"]" class="text-decoration-none">
                                 <input class="btn btn-sm btn-outline-success mr-2" value="Alterar" style="width: 80px" />
                             </a> 
                             <a href='#' class="btnExcluir text-decoration-none" name="@item.IdAluno">
@@ -85,7 +87,7 @@
 
 <hr />
 <div class="d-inline-block">
-    <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Alunoes")'">Incluir aluno</button>
+    <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Alunoes",  new {id = @Context.Request.RouteValues["id"], nome = @Context.Request.Query["nome"] })'">Incluir aluno</button>
     <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("Index", "Import",  new { id = @Context.Request.RouteValues["id"], nome = @Context.Request.Query["nome"] })'">Importar Alunos</button>
     <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Professors")'">Listar professores</button>
 </div>
@@ -150,7 +152,7 @@
             }
         });
         Toast.fire({
-            title: "O aluno foi <b style='color:red'>excluído</b>!.",
+            title: "O aluno foi <b style='color:red'>excluído</b>!",
             icon: "danger"
         }).then(function () {
             return true;
@@ -158,4 +160,4 @@
         });
     }
 
-    </script>
+</script>

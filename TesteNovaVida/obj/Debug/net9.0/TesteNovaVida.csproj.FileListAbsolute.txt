@@ -1,12 +1,3 @@
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.csproj.AssemblyReference.cache
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.GeneratedMSBuildEditorConfig.editorconfig
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.AssemblyInfoInputs.cache
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.AssemblyInfo.cs
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.csproj.CoreCompileInputs.cache
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.MvcApplicationPartsAssemblyInfo.cache
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.RazorAssemblyInfo.cache
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.RazorAssemblyInfo.cs
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.sourcelink.json
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\bin\Debug\net9.0\web.config
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\bin\Debug\net9.0\appsettings.Development.json
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\bin\Debug\net9.0\appsettings.json
@@ -249,6 +240,15 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\bin\Debug\net9.0\runtimes
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.csproj.AssemblyReference.cache
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.GeneratedMSBuildEditorConfig.editorconfig
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.AssemblyInfoInputs.cache
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.AssemblyInfo.cs
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.csproj.CoreCompileInputs.cache
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.MvcApplicationPartsAssemblyInfo.cache
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.RazorAssemblyInfo.cache
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.RazorAssemblyInfo.cs
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.sourcelink.json
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\scopedcss\bundle\TesteNovaVida.styles.css
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\scopedcss\projectbundle\TesteNovaVida.bundle.scp.css
@@ -363,6 +363,8 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compress
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\nsw0xirsr1-muycvpuwrr.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\qaj6vg4rng-87fc7y1x7t.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\zdz700jnfb-mlv21k5csn.gz
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\zd5fyesvrd-7sjcucgwe4.gz
+D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\nkae8z26fk-pssfe2zcq7.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\z3zn6mi0x7-bupkw558zs.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\fa24kxk3tk-bupkw558zs.gz
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\staticwebassets.build.json
@@ -381,5 +383,3 @@ D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\refint\T
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.pdb
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\TesteNovaVida.genruntimeconfig.cache
 D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\ref\TesteNovaVida.dll
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\nkae8z26fk-pssfe2zcq7.gz
-D:\Teste\Teste-Nova-Vida\Teste-Nova-Vida\TesteNovaVida\obj\Debug\net9.0\compressed\zd5fyesvrd-7sjcucgwe4.gz

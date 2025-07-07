@@ -1,9 +1,21 @@
 ﻿@using System.Globalization
 @model TesteNovaVida.Models.Aluno
+@{
+    var nomeProfessor = @Context.Request.Query["nome"];
+}
 
 @{
     ViewData["Title"] = "Cadastrar";
 }
+
+<style type="text/css">
+
+    .readonly-select {
+        background-color: #eee; /* Optional: style to look disabled */
+        pointer-events: none; /* Prevent clicks and interactions */
+        cursor: default; /* Change cursor to default */
+    }
+</style>
 
 <h4 class="mb-0">Incluir Aluno</h4>
 <hr class="mt-0" />
@@ -14,11 +26,11 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="IdProfessor" class="control-label">Professor</label>
-                <select asp-for="IdProfessor" class ="form-control" asp-items="ViewBag.IdProfessor"></select>
+                <select asp-for="IdProfessor" id="ddlProfessor" class ="form-control"  asp-items="ViewBag.IdProfessor"></select>
             </div>
             <div class="form-group">
                 <label asp-for="NomeAluno" class="control-label">Nome do aluno</label>
-                <input asp-for="NomeAluno" class="form-control" />
+                <input asp-for="NomeAluno" class="form-control" maxlength="100" />
                 <span asp-validation-for="NomeAluno" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -32,7 +44,7 @@
                 <span asp-validation-for="DataVencimento" class="text-danger"></span>
             </div>
             <div class="form-group mt-4">
-                <input type="submit" value="Incluir" class="btn btn-success" />
+                <input type="submit" value="Incluir" asp-route-nome="@ViewData["nomeProf"]" class="btn btn-success" />
             </div>
         </form>
     </div>
@@ -41,8 +53,15 @@
 <br />
 <hr />
 
-<button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Alunoes")'">Listar alunos</button>
+@if (nomeProfessor.ToString() != "")
+{
+    <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("ListarAlunosProfessor", "Professors",  new { id = @Context.Request.RouteValues["id"], nome = nomeProfessor })'">Voltar</button>
 
+}
+else
+{
+    <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("Index", "Alunoes")'">Listar todos os alunos</button>
+}
 
 @section Scripts {
     @{
@@ -55,5 +74,16 @@
 <script type="text/javascript">
 
     $(".money").mask('000.000,00', { reverse: true });
+
+    var urlParams = new URLSearchParams(window.location.search);
+    let queryString = urlParams.get('nome');
+
+    if (queryString.toString() != "")
+    {
+         $("#ddlProfessor option:contains('" + queryString + "')").prop('selected', true);
+         $('#ddlProfessor').addClass('readonly-select');
+    }
+    else
+        $('#ddlProfessor').addClass('');
 
 </script>

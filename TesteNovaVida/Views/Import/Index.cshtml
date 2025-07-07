@@ -37,15 +37,17 @@
 </style>
 
 
-@if (@nomeProfessor != "")
+@if (nomeProfessor.ToString() != "")
 {
     <h2>Alunos do professor: <b style="color: blue">@nomeProfessor</b> </h2>
 }
-@if (ViewData["Message"] != null)
+else
 {
-    if (@ViewData["Message"].ToString().Split("#")[3] != "")
+    @if (ViewData["Message"] != null)
     {
-        <h2>Alunos do professor: <b style="color: blue">@ViewData["Message"].ToString().Split("#")[3]</b> </h2>
+
+      <h2>Alunos do professor: <b style="color: blue">@ViewData["Message"].ToString().Split("#")[3]</b> </h2>
+
     }
 }
 <hr />
@@ -77,14 +79,14 @@
 
 <hr />
 <div class="d-inline-block">
-    @if (@nomeProfessor != "")
+    @if (nomeProfessor.ToString() != "")
     {
         <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("ListarAlunosProfessor", "Professors",  new { id = @Context.Request.RouteValues["id"], nome = nomeProfessor })'">Voltar</button>
 
     }
-    @if (ViewData["Message"] != null)
+    else
     {
-        if (@ViewData["Message"].ToString().Split("#")[3] != "")
+        @if (ViewData["Message"] != null)
         {
             <button type="button" class="btn btn-outline-secondary" onclick="location.href='@Url.Action("ListarAlunosProfessor", "Professors",  new { id = @Context.Request.RouteValues["id"], nome = @ViewData["Message"].ToString().Split("#")[3] })'">Voltar</button>
         }

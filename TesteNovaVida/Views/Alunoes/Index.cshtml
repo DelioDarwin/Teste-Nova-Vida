@@ -9,53 +9,58 @@
 <hr />
 <br />
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                Nome do aluno
-            </th>
-            <th>
-                Valor da mensalidade
-            </th>
-            <th>
-                Data de vencimento
-            </th>
-            <th>
-                Professor
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NomeAluno)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ValorMensalidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataVencimento)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Professor.NomeProfessor)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdAluno" class="text-decoration-none">
-                    <input class="btn btn-sm btn-outline-success mr-2" value="Alterar" style="width: 80px" />
-                </a>
-                <a href='#' class="btnExcluir text-decoration-none" name="@item.IdAluno">
-                    <input class="btn btn-sm btn-outline-danger" value="Excluir" style="width: 80px" />
-                </a>
-            </td>
-        </tr>
-    }
+<span class="ml-1">Total de Alunos: <b>@Model.Count().ToString()</b></span>
+<hr />
+<div style="max-height: 400px; overflow-x: auto">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nome do aluno
+                </th>
+                <th>
+                    Valor da mensalidade
+                </th>
+                <th>
+                    Data de vencimento
+                </th>
+                <th>
+                    Professor
+                </th>
+                <th>
+                    Ações
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeAluno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ValorMensalidade)
+                </td>
+                <td>
+                        @Convert.ToDateTime(item.DataVencimento).ToString("dd/MM/yyyy")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Professor.NomeProfessor)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdAluno" class="text-decoration-none">
+                        <input class="btn btn-sm btn-outline-success mr-2" value="Alterar" style="width: 80px" />
+                    </a>
+                    <a href='#' class="btnExcluir text-decoration-none" name="@item.IdAluno">
+                        <input class="btn btn-sm btn-outline-danger" value="Excluir" style="width: 80px" />
+                    </a>
+                </td>
+            </tr>
+        }
 
-    </tbody>
-</table>
-
+        </tbody>
+    </table>
+</div>
 <br />
 
 <hr />
@@ -124,7 +129,7 @@
             }
         });
         Toast.fire({
-            title: "O aluno foi <b style='color:red'>excluído</b>!.",
+            title: "O aluno foi <b style='color:red'>excluído</b>!",
             icon: "danger"
         }).then(function () {
             return true;

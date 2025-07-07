@@ -8,37 +8,42 @@
 <hr />
 <br />
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                Nome do professor
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NomeProfessor)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdProfessor" class="text-decoration-none">
-                    <input class="btn btn-sm btn-outline-success mr-2" value="Alterar" style="width: 80px"/>
-                </a>
-                <a href='#' class="btnExcluir text-decoration-none" name="@item.IdProfessor">
-                    <input class="btn btn-sm btn-outline-danger" value="Excluir" style="width: 80px" />
-                </a>
-                    <a asp-action="ListarAlunosProfessor" asp-route-id="@item.IdProfessor" asp-route-nome="@item.NomeProfessor" class="text-decoration-none">
-                    <input class="btn btn-sm btn-outline-secondary" value="Listar seus alunos" style="width: 150px" />
-                </a>
-            </td>
-        </tr>
-    }
-    </tbody>
-</table>
-
+<span class="ml-1">Total de Professores: <b>@Model.Count().ToString()</b></span>
+<hr />
+<div style="max-height: 400px; overflow-x: auto">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Nome do professor
+                </th>
+                <th>
+                    Ações
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeProfessor)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdProfessor" class="text-decoration-none">
+                        <input class="btn btn-sm btn-outline-success mr-2" value="Alterar" style="width: 80px"/>
+                    </a>
+                    <a href='#' class="btnExcluir text-decoration-none" name="@item.IdProfessor">
+                        <input class="btn btn-sm btn-outline-danger" value="Excluir" style="width: 80px" />
+                    </a>
+                        <a asp-action="ListarAlunosProfessor" asp-route-id="@item.IdProfessor" asp-route-nome="@item.NomeProfessor" class="text-decoration-none">
+                        <input class="btn btn-sm btn-outline-secondary" value="Listar seus alunos" style="width: 150px" />
+                    </a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
 <br />
 
 <hr />
@@ -49,7 +54,6 @@
 
 
 <script src="~/js/jquery.js"></script>
-
 <script type="text/javascript">
 
     $(".table").on("click", ".btnExcluir", deleteRow);
@@ -107,7 +111,7 @@
             }
         });
         Toast.fire({
-            title: "O professor e todos os seus respectivos alunos foram <b style='color:red'>excluídos</b>!.",
+            title: "O professor e todos os seus respectivos alunos foram <b style='color:red'>excluídos</b>!",
             icon: "danger"
         }).then(function () {
             return true;
