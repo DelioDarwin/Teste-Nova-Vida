@@ -12,9 +12,9 @@ https://www.loom.com/share/5f70a706e120433e9b80e3580b0fb3f4?sid=c29045c1-58be-4e
   - Atualizar os pacotes Nugets
   - Restaurar o banco SQL Sever que está no diretório raiz: ScriptsBackupBanco
   - Ou poderá também executar o script de criação da estrutura de banco (opção 2)
-  - Aterar a string de conexão na key "ConnectionStrings" localizada no arquivo: appsettings.jso, de acordo com o nome do servidor e o tipo de autenticação do ambiente de testes do SQL Server
-  - Os arquivos de importação TXT e CSV estão no diretório raiz: ArquivosParaImportacao
-  - Ao importar o arquivo pela funcionalidade da aplicação, gerado uma cópia do mesmo na pasta de arquivos estáticos: wwwroot/uploads e em seguida é feita a leitura deste arquivo via stream e convertidas em objetos do model Aluno e gravadas via entity framework no SQL Server
+  - Alterar a string de conexão na key "ConnectionStrings" localizada no arquivo: appsettings.json, de acordo com o nome do servidor e o tipo de autenticação do ambiente de testes do SQL Server, onde será executado
+  - Os arquivos de testes de importação TXT e CSV estão no diretório raiz da aplicação: ArquivosParaImportacao
+  - Ao importar o arquivo pela funcionalidade da aplicação, é gerado uma cópia do mesmo na pasta de arquivos estáticos: wwwroot/uploads e em seguida é feita a leitura deste arquivo via stream e convertido em objeto da model Aluno e gravadas via entity framework core no SQL Server
 
 # Tecnologias Utilizadas
   - .Net 9
@@ -28,13 +28,14 @@ https://www.loom.com/share/5f70a706e120433e9b80e3580b0fb3f4?sid=c29045c1-58be-4e
   - Scripts javascript (Jquery.Validation, Jquery.Mask, SweetAlert)
 
 # Recursos adicionais implementados
-  = Substituição do Jquery-Valition, pela versão pt-BR alterando o bundles para o padrão regional do Brasil, para validações de data e moedas nos formatos adequados
-  - Ajustes nas injeções de depências do Entity Framework Core - implementação da deleção em cascata para (Professores e Alunos associados respectivamente)
+  = Substituição do Jquery-Validation, pela versão pt-BR alterando os bundles para o padrão regional do Brasil, para validações de data e moeda nos formatos adequados
+  - Ajustes nas injeções de depedências do Entity Framework Core - implementação da deleção em cascata para (ao excluir um professor e excluido todos os alunos associados a ele)
   - Configuração do Gloalization na inicialização do program.cs - para que toda solução possa considerar os padrões regionais pt-BR
   - Importação de alunos via Arquivos TXT e CSS, configuração e implementação dos bloqueios para novas importações, crição de uma tabela extra que regista a ultima importação e leitura do appsettings.json para ler o limite de intervalo de tempo entre uma importação e outra (configurada em minutos);
   - Tramento de exeções redirecionamentos das rotas implmentações das actions dos controlores todar a navegação fluida e intuitiva
-  - Testes realizados por horas prevendo todos os tipos falhas possíveis
+  - Os testes foram realizados por horas prevendo todos os tipos falhas possíveis
   - Exclusão reativa através do Ajax Jquery sem reload na pagina
+  - Lista de todos os alunos (não só a lista de alunos por professor), as views de cadastro e alteração do aluno, ao receber a requisição é verificada se é uma inclusao direta onde o usuário seleciona o professor, ou se é feita através da lista de alunos de professores, onde o professor nestas views são apenas exbidos e não podendo selecionar...
 
 # DER Banco SQL Server
 ![image](https://github.com/user-attachments/assets/004d4270-15eb-4845-be6d-70a800459bb3)
