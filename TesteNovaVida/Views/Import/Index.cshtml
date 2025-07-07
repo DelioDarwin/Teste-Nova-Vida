@@ -99,17 +99,14 @@ else
 
     $(document).ready(function() {
       $('input[type="file"]').change(function() {
-        // Get the DOM element from the jQuery object
         const fileInput = $(this)[0];
 
-        // Check the length of the files property
         if (fileInput.files.length > 0) {
              $("#btnImportar").show();
-          // Perform actions when a file is selected
         } else {
              $("#btnImportar").hide();
-          // Perform actions when no file is selected
         }
       });
     });
+
 </script>

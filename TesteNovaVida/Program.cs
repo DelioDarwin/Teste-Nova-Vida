@@ -1,10 +1,6 @@
-﻿using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Localization;
+﻿using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
 using System.Globalization;
-using TesteNovaVida;
 using TesteNovaVida.Data;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<TesteNovaVidaContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("TesteNovaVidaContext") ?? throw new InvalidOperationException("Connection string 'TesteNovaVidaContext' not found.")));
