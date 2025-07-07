@@ -38,6 +38,10 @@ Delio Darwin
 # Arquivo de configuração (Alterar o limite de intervalo de tempo de uma importação ou outra em minutos) / Alterar a string de conexão
 ![image](https://github.com/user-attachments/assets/a41226d1-a1d4-4be5-9c6a-512f15163e7c)
 
+# Diretórios Extras detalhos acima
+![image](https://github.com/user-attachments/assets/8551d74b-e570-4fbf-a7e3-09ce7a41c68a)
+![image](https://github.com/user-attachments/assets/dd149963-6221-4d68-9c01-4c23eabc3b8a)
+
 -------------------------------------------------------------------------------------------
 
 # Escopo
