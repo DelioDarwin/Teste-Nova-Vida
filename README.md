@@ -31,6 +31,7 @@ Delio Darwin
   - Importação de alunos via Arquivos TXT e CSS, configuração e implementação dos bloqueios para novas importações, crição de uma tabela extra que regista a ultima importação e leitura do appsettings.json para ler o limite de intervalo de tempo entre uma importação e outra (configurada em minutos);
   - Tramento de exeções redirecionamentos das rotas implmentações das actions dos controlores todar a navegação fluida e intuitiva
   - Testes realizados por horas prevendo todos os tipos falhas possíveis
+  - Exclusão reativa através do Ajax Jquery sem reload na pagina
 
 # DER Banco SQL Server
 ![image](https://github.com/user-attachments/assets/004d4270-15eb-4845-be6d-70a800459bb3)
@@ -41,6 +42,23 @@ Delio Darwin
 # Diretórios Extras detalhos acima
 ![image](https://github.com/user-attachments/assets/8551d74b-e570-4fbf-a7e3-09ce7a41c68a)
 ![image](https://github.com/user-attachments/assets/dd149963-6221-4d68-9c01-4c23eabc3b8a)
+
+#Screenshots
+![image](https://github.com/user-attachments/assets/07486c5d-3f19-439e-ac51-08f44d6a8864)
+![image](https://github.com/user-attachments/assets/75ac6529-b514-4fbb-a40f-dbab1b833d65)
+![image](https://github.com/user-attachments/assets/4961b78b-7854-4845-918f-05cec6a531df)
+![image](https://github.com/user-attachments/assets/75513387-3a04-40e4-88f6-4830f6d5f9f3)
+![image](https://github.com/user-attachments/assets/f9a0fe49-ec01-4b87-8ca2-b804458e514e)
+![image](https://github.com/user-attachments/assets/51b92a5a-0221-4626-b87c-2525cf2a7417)
+![image](https://github.com/user-attachments/assets/4a370000-01f8-4fb2-a960-4e38efe40753)
+![image](https://github.com/user-attachments/assets/744c4377-5cd5-419a-9a9a-3f23fb453d77)
+![image](https://github.com/user-attachments/assets/5b0f5493-d1f3-4802-bbea-831f3bb1aba4)
+![image](https://github.com/user-attachments/assets/44ca4c06-0291-407c-8c26-2988e55dc3ff)
+![image](https://github.com/user-attachments/assets/be35de95-bc59-4654-a3de-59c9d665506a)
+![image](https://github.com/user-attachments/assets/89dda168-ff8c-4f86-9b2e-2712c85a5f2d)
+![image](https://github.com/user-attachments/assets/b85cc923-f5fe-487b-bee6-aa442f5c3e82)
+![image](https://github.com/user-attachments/assets/9b5a8546-f676-4ee4-860c-1bbf21b4632e)
+![image](https://github.com/user-attachments/assets/b153f007-78ec-4594-b5c0-3c07ab64801b)
 
 -------------------------------------------------------------------------------------------
 
